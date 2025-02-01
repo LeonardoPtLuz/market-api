@@ -5,7 +5,6 @@ import java.util.stream.Collectors;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,8 +13,6 @@ import com.example.marketproject.market.Repository.ProductRepository;
 import com.example.marketproject.market.entity.Product;
 
 import jakarta.persistence.EntityNotFoundException;
-
-//import jakarta.transaction.Transactional;
 
 @Service
 public class ProductService {
